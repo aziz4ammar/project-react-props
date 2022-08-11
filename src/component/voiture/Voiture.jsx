@@ -16,11 +16,11 @@ const Voiture = ({car , handlePrice }) => {
     </div>
   )
 }
-voiture.propTypes = {
+Voiture.propTypes = {
   car:PropTypes.array,
   handlePrice:PropTypes.func
 }
-voiture.defaultProps={
+Voiture.defaultProps={
   name:"aziz"
 }
 export default Voiture
